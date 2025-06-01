@@ -55,6 +55,16 @@ function App() {
       >
         Play relaxing music
       </button>
+      <p className="mt-4 text-neutral-600">
+        made by{" "}
+        <a href="https://pe3epwithyou.vercel.app" className="text-blue-600 underline">
+          pe3epwithyou
+        </a>{" "}
+        source on{" "}
+        <a href="https://github.com/pe3ep/notcrew-silly" className="text-blue-600 underline">
+          github
+        </a>{" "}
+      </p>
     </main>
   );
 }
